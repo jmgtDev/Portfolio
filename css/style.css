@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.all-elements {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/back-ground/back-ground.png);
+  background-size: cover;
+}
+.all-elements .logo {
+  width: 66px;
+  height: 55px;
+  border-radius: 10px;
+}
+.all-elements .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  padding-right: 20px;
+}
+.all-elements .title {
+  font-size: 120px;
+  display: flex;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.all-elements .main-title {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.all-elements .projects {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.all-elements .projects .project {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 532px;
+  flex-grow: 1;
+  align-items: center;
+  gap: 15px;
+}
+.all-elements .projects .project .project-img {
+  width: 320px;
+  height: 304px;
+  border-radius: 10px;
+}
+.all-elements .projects .project .project-title {
+  font-size: 24px;
+}
+.all-elements .projects .project .project-text {
+  width: 320px;
+  font-size: 17px;
+}
+.all-elements .footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+.all-elements .footer .contacts {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.all-elements .footer .contacts .contact {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.all-elements .footer .contacts .logo-contact {
+  width: 30px;
+  height: 30px;
+}
+.all-elements .footer .contacts .logo-linkedin {
+  width: 30px;
+  height: 20px;
+}
+.all-elements .footer .contacts .logo-github {
+  width: 25px;
+  height: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.all-elements{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/back-ground/back-ground.png);
+    background-size: cover;
+
+    .logo{
+        width: 66px;
+        height: 55px;
+        border-radius: 10px;
+        
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding: 5px;
+        padding-right: 20px;
+    }
+
+    .title{
+        font-size: 120px;
+        display: flex;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .main-title{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .projects{
+        display: flex;
+        gap: 30px;
+        padding: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .project{
+            display: flex;
+            flex-direction: column;
+            width: 320px;
+            height: 532px;
+            flex-grow: 1;
+            align-items: center;
+            gap: 15px;
+            
+            .project-img{
+                width: 320px;
+                height: 304px;
+                border-radius: 10px;
+            }
+
+            .project-title{
+                font-size: 24px;
+            }
+
+            .project-text{
+                width: 320px;
+                font-size: 17px;
+            }
+        }
+    }
+
+    .footer{
+        display: flex;
+        background-color: black;
+        color: white;
+        align-items: center;
+
+        .contacts{
+            display: flex;
+            flex-grow: 1;
+            justify-content: space-between;
+            padding-left: 200px;
+            padding-right: 200px;
+
+            .contact{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+
+            .logo-contact{
+                width: 30px;
+                height: 30px;
+            }
+            .logo-linkedin{
+                width: 30px;
+                height: 20px;
+            }
+            .logo-github{
+                width: 25px;
+                height: 25px;
+            }
+
+        }
+    }
+}
