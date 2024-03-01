@@ -56,8 +56,7 @@
 }
 .all-elements .projects {
   display: flex;
-  gap: 30px;
-  padding: 30px;
+  gap: 80px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -67,10 +66,18 @@
   flex-direction: column;
   width: 320px;
   height: 532px;
-  flex-grow: 1;
   align-items: center;
+  padding: 10px;
   gap: 15px;
   font-family: "Anta", sans-serif;
+  border-radius: 10px;
+  transition: 0.5s;
+  border: 5px solid transparent;
+}
+.all-elements .projects .project:hover {
+  color: rgb(230, 221, 221);
+  background-color: rgb(22, 20, 20);
+  border-color: rgb(173, 86, 86);
 }
 .all-elements .projects .project .project-img {
   width: 320px;
@@ -170,14 +177,22 @@
   border-radius: 1000px;
   display: flex;
   border: 10px solid rgb(46, 46, 46);
+  transition: 0.5s;
+}
+.all-elements-sobre .personal-img-div .personal-img:hover {
+  border-color: rgb(173, 86, 86);
 }
 .all-elements-sobre .title-sobre {
   display: flex;
   justify-content: center;
   font-family: "Anta", sans-serif;
   font-size: 100px;
+  transition: 0.5s;
 }
-.all-elements-sobre .text-sobre-div {
+.all-elements-sobre .title-sobre:hover {
+  color: rgb(173, 86, 86);
+}
+.all-elements-sobre .text-sobre {
   display: flex;
   font-family: "Anta", sans-serif;
   text-align: justify;
@@ -189,6 +204,12 @@
   border-radius: 1000px;
   padding: 40px;
   margin-left: 220px;
+  transition: 0.5s;
+}
+.all-elements-sobre .text-sobre:hover {
+  color: rgb(230, 221, 221);
+  background-color: rgb(22, 20, 20);
+  border-color: rgb(173, 86, 86);
 }
 .all-elements-sobre .footer {
   display: flex;

@@ -63,8 +63,7 @@
 
     .projects{
         display: flex;
-        gap: 30px;
-        padding: 30px;
+        gap: 80px;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
@@ -74,10 +73,19 @@
             flex-direction: column;
             width: 320px;
             height: 532px;
-            flex-grow: 1;
             align-items: center;
+            padding: 10px;
             gap: 15px;
             font-family: "Anta", sans-serif;
+            border-radius: 10px;
+            transition: 0.5s;
+            border: 5px solid transparent;
+            &:hover{
+                color: rgb(230, 221, 221);
+                background-color: rgb(22, 20, 20);
+                border-color: rgb(173, 86, 86);
+    
+            }
             
             .project-img{
                 width: 320px;
@@ -183,13 +191,16 @@
     .personal-img-div{
         display: flex;
         justify-content: center;
-
         .personal-img{
             width: 400px;
             height: 320px;
             border-radius: 1000px;
             display: flex;
             border: 10px solid rgb(46, 46, 46);
+            transition: 0.5s;
+            &:hover{
+                border-color: rgb(173, 86, 86);
+            }
         }
     }
     .title-sobre{
@@ -197,8 +208,12 @@
         justify-content: center;
         font-family: "Anta", sans-serif;
         font-size: 100px;
+        transition: 0.5s;
+        &:hover{
+            color: rgb(173, 86, 86);;
+        }
     }
-    .text-sobre-div{
+    .text-sobre{
         display: flex;
         font-family: "Anta", sans-serif;
         text-align: justify;
@@ -210,6 +225,13 @@
         border-radius: 1000px;
         padding: 40px;
         margin-left: 220px;
+        transition: 0.5s;
+        &:hover{
+            color: rgb(230, 221, 221);
+            background-color: rgb(22, 20, 20);
+            border-color: rgb(173, 86, 86);
+
+        }
     }
     .footer{
         display: flex;
