@@ -112,6 +112,11 @@
   background-image: url(/images/back-ground/back-ground.png);
   background-size: cover;
 }
+.all-elements-sobre .logo {
+  width: 66px;
+  height: 55px;
+  border-radius: 10px;
+}
 .all-elements-sobre .header-sobre {
   display: flex;
   align-items: center;
@@ -152,6 +157,47 @@
   border-radius: 1000px;
   padding: 40px;
   margin-left: 220px;
+}
+.all-elements-sobre .footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding-right: 20px;
+}
+.all-elements-sobre .footer .contacts {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.all-elements-sobre .footer .contacts .contact {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: "Anta", sans-serif;
+}
+.all-elements-sobre .footer .contacts .contact .contact-text {
+  text-decoration: none;
+  color: white;
+}
+.all-elements-sobre .footer .contacts .logo-contact {
+  width: 30px;
+  height: 30px;
+}
+.all-elements-sobre .footer .contacts .logo-linkedin {
+  width: 30px;
+  height: 20px;
+}
+.all-elements-sobre .footer .contacts .logo-github {
+  width: 25px;
+  height: 25px;
+}
+.all-elements-sobre .footer .button {
+  font-family: "Anta", sans-serif;
+  text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

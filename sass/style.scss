@@ -118,7 +118,6 @@
                 width: 25px;
                 height: 25px;
             }
-
         }
     }
 }
@@ -129,6 +128,14 @@
     gap: 35px;
     background-image: url(/images/back-ground/back-ground.png);
     background-size: cover;
+
+    .logo{
+        width: 66px;
+        height: 55px;
+        border-radius: 10px;
+        
+    }
+
     .header-sobre{
         .logo{
             width: 66px;
@@ -171,6 +178,52 @@
         padding: 40px;
         margin-left: 220px;
     }
+    .footer{
+        display: flex;
+        background-color: black;
+        color: white;
+        align-items: center;
+        padding-right: 20px;
 
+        .contacts{
+            display: flex;
+            flex-grow: 1;
+            justify-content: space-between;
+            padding-left: 200px;
+            padding-right: 200px;
 
+            .contact{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                font-family: "Anta", sans-serif;
+
+                .contact-text{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+
+            .logo-contact{
+                width: 30px;
+                height: 30px;
+            }
+
+            .logo-linkedin{
+                width: 30px;
+                height: 20px;
+            }
+
+            .logo-github{
+                width: 25px;
+                height: 25px;
+            }
+        }
+                .button{
+            font-family: "Anta", sans-serif;
+            text-decoration: none;
+            color: white;
+
+        }
+    }
 }
