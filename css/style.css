@@ -13,6 +13,13 @@
   width: 66px;
   height: 55px;
   border-radius: 10px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  transition: 0.7s;
+}
+.all-elements .logo:hover {
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
 }
 .all-elements .header {
   display: flex;
@@ -27,6 +34,15 @@
   font-family: "Anta", sans-serif;
   text-decoration: none;
   color: white;
+  padding: 3px;
+  transition: 0.4s;
+  border-radius: 10px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+.all-elements .header .button:hover {
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
 }
 .all-elements .title {
   font-size: 120px;
@@ -74,6 +90,7 @@
   background-color: black;
   color: white;
   align-items: center;
+  padding: 5px;
 }
 .all-elements .footer .contacts {
   display: flex;
@@ -87,6 +104,14 @@
   align-items: center;
   gap: 5px;
   font-family: "Anta", sans-serif;
+  border-radius: 10px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  transition: 0.4s;
+}
+.all-elements .footer .contacts .contact:hover {
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
 }
 .all-elements .footer .contacts .contact .contact-text {
   text-decoration: none;
@@ -116,6 +141,13 @@
   width: 66px;
   height: 55px;
   border-radius: 10px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  transition: 0.7s;
+}
+.all-elements-sobre .logo:hover {
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
 }
 .all-elements-sobre .header-sobre {
   display: flex;
@@ -164,6 +196,7 @@
   color: white;
   align-items: center;
   padding-right: 20px;
+  padding: 5px;
 }
 .all-elements-sobre .footer .contacts {
   display: flex;
@@ -177,6 +210,14 @@
   align-items: center;
   gap: 5px;
   font-family: "Anta", sans-serif;
+  border-radius: 10px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  transition: 0.4s;
+}
+.all-elements-sobre .footer .contacts .contact:hover {
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
 }
 .all-elements-sobre .footer .contacts .contact .contact-text {
   text-decoration: none;
@@ -198,6 +239,15 @@
   font-family: "Anta", sans-serif;
   text-decoration: none;
   color: white;
+  border-radius: 10px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  transition: 0.7s;
+  padding: 3px;
+}
+.all-elements-sobre .footer .button:hover {
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
 }
 
 /*# sourceMappingURL=style.css.map */

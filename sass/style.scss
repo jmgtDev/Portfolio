@@ -13,6 +13,13 @@
         width: 66px;
         height: 55px;
         border-radius: 10px;
+        border-bottom: 2px solid black;
+        border-right: 2px solid black;
+        transition: 0.7s;
+        &:hover{
+            border-bottom: 2px solid  white;
+            border-right: 2px solid white;
+        }
         
     }
 
@@ -29,8 +36,17 @@
             font-family: "Anta", sans-serif;
             text-decoration: none;
             color: white;
-
+            padding: 3px;
+            transition: 0.4s;
+            border-radius: 10px;
+            border-bottom: 2px solid black;
+            border-right: 2px solid black;
+            &:hover{
+                border-bottom: 2px solid white;
+                border-right: 2px solid white
+            }
         }
+
     }
 
     .title{
@@ -86,6 +102,7 @@
         background-color: black;
         color: white;
         align-items: center;
+        padding: 5px;
 
         .contacts{
             display: flex;
@@ -99,6 +116,15 @@
                 align-items: center;
                 gap: 5px;
                 font-family: "Anta", sans-serif;
+                border-radius: 10px;
+                border-bottom: 2px solid black;
+                border-right: 2px solid black;
+                transition: 0.4s;
+
+                &:hover{
+                    border-bottom: 2px solid white;
+                    border-right: 2px solid white;
+                }
 
                 .contact-text{
                     text-decoration: none;
@@ -133,6 +159,13 @@
         width: 66px;
         height: 55px;
         border-radius: 10px;
+        border-bottom: 2px solid black;
+        border-right: 2px solid black;
+        transition: 0.7s;
+        &:hover{
+            border-bottom: 2px solid  white;
+            border-right: 2px solid white;
+        }
         
     }
 
@@ -184,6 +217,7 @@
         color: white;
         align-items: center;
         padding-right: 20px;
+        padding: 5px;
 
         .contacts{
             display: flex;
@@ -197,6 +231,15 @@
                 align-items: center;
                 gap: 5px;
                 font-family: "Anta", sans-serif;
+                border-radius: 10px;
+                border-bottom: 2px solid black;
+                border-right: 2px solid black;
+                transition: 0.4s;
+
+                &:hover{
+                    border-bottom: 2px solid white;
+                    border-right: 2px solid white;
+                }
 
                 .contact-text{
                     text-decoration: none;
@@ -219,10 +262,19 @@
                 height: 25px;
             }
         }
-                .button{
+            .button{
             font-family: "Anta", sans-serif;
             text-decoration: none;
             color: white;
+            border-radius: 10px;
+            border-bottom: 2px solid black;
+            border-right: 2px solid black;
+            transition: 0.7s;
+            padding: 3px;
+            &:hover{
+                border-bottom: 2px solid  white;
+                border-right: 2px solid white;
+            }
 
         }
     }
