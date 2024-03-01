@@ -86,6 +86,10 @@
   gap: 5px;
   font-family: "Anta", sans-serif;
 }
+.all-elements .footer .contacts .contact .contact-text {
+  text-decoration: none;
+  color: white;
+}
 .all-elements .footer .contacts .logo-contact {
   width: 30px;
   height: 30px;
