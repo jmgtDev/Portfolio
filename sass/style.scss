@@ -58,6 +58,7 @@
             flex-grow: 1;
             align-items: center;
             gap: 15px;
+            font-family: "Anta", sans-serif;
             
             .project-img{
                 width: 320px;
@@ -72,6 +73,7 @@
             .project-text{
                 width: 320px;
                 font-size: 17px;
+                text-align: justify;
             }
         }
     }

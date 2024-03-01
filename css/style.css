@@ -52,6 +52,7 @@
   flex-grow: 1;
   align-items: center;
   gap: 15px;
+  font-family: "Anta", sans-serif;
 }
 .all-elements .projects .project .project-img {
   width: 320px;
@@ -64,6 +65,7 @@
 .all-elements .projects .project .project-text {
   width: 320px;
   font-size: 17px;
+  text-align: justify;
 }
 .all-elements .footer {
   display: flex;
