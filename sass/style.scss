@@ -27,6 +27,9 @@
 
         .button{
             font-family: "Anta", sans-serif;
+            text-decoration: none;
+            color: white;
+
         }
     }
 
@@ -118,4 +121,56 @@
 
         }
     }
+}
+
+.all-elements-sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    background-image: url(/images/back-ground/back-ground.png);
+    background-size: cover;
+    .header-sobre{
+        .logo{
+            width: 66px;
+            height: 55px;
+        }
+        display: flex;
+        align-items: center;
+        background-color: black;
+        padding: 5px;
+        padding-right: 20px;
+    }
+    .personal-img-div{
+        display: flex;
+        justify-content: center;
+
+        .personal-img{
+            width: 400px;
+            height: 320px;
+            border-radius: 1000px;
+            display: flex;
+            border: 10px solid rgb(46, 46, 46);
+        }
+    }
+    .title-sobre{
+        display: flex;
+        justify-content: center;
+        font-family: "Anta", sans-serif;
+        font-size: 100px;
+    }
+    .text-sobre-div{
+        display: flex;
+        font-family: "Anta", sans-serif;
+        text-align: justify;
+        font-size: 25px;
+        max-width: 1000px;
+        align-items: center;
+        justify-content: center;
+        border: 10px solid rgb(46, 46, 46);
+        border-radius: 1000px;
+        padding: 40px;
+        margin-left: 220px;
+    }
+
+
 }
